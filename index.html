@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitness Pro Equipment — Venta, instalación y mantenimiento de máquinas para gimnasios</title>
+  <meta name="description" content="Fitness Pro Equipment: venta, instalación y mantenimiento profesional de máquinas para gimnasios. Financiación, instalación incluida y asesoramiento técnico.">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; background-color: #0b0b0b; color: #fff; }
+    .bg-darkglass { background-color: rgba(0,0,0,0.6); backdrop-filter: blur(6px); }
+    .btn-accent { background-color: #d32f2f; color: #fff; }
+    .btn-accent:hover { background-color: #b71c1c; }
+    .card-product { background-color: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); color: #fff; }
+    .service-icon { font-size: 2rem; width: 64px; height: 64px; display:flex; justify-content:center; align-items:center; background-color: rgba(255,255,255,0.05); border-radius:12px; }
+    .brand-img { filter: grayscale(100%) opacity(0.7); max-height: 50px; }
+    .hero { min-height: 70vh; background-size: cover; background-position: center; position: relative; display: flex; align-items: center; }
+    .hero-overlay { position: absolute; inset: 0; background: rgba(11,11,11,0.5); }
+  </style>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="py-2 bg-dark text-white-50 small">
+  <div class="container d-flex justify-content-between">
+    <div class="d-flex gap-4">
+      <div><i class="fa-solid fa-screwdriver-wrench me-1"></i> Instalación incluida</div>
+      <div><i class="fa-solid fa-shield-halved me-1"></i> Equipos garantizados</div>
+      <div><i class="fa-solid fa-hand-holding-dollar me-1"></i> Financiación disponible</div>
+    </div>
+    <div class="d-none d-md-block">
+      Soporte 24/7 — <a href="mailto:info@fitnessproequipment.com" class="text-decoration-none text-white-50">info@fitnessproequipment.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-darkglass">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+      <div class="bg-danger text-white fw-bold d-flex justify-content-center align-items-center" style="width:44px; height:44px; border-radius:10px;">FP</div>
+      <div class="d-none d-md-block">
+        <strong>Fitness Pro</strong><br><small class="text-white-50">Equipment</small>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-light ms-2" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header id="hero" class="hero" style="background-image:url('https://images.unsplash.com/photo-1558611848-73f7eb4001d7?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=');">
+  <div class="hero-overlay"></div>
+  <div class="container position-relative text-white">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h1 class="display-5 fw-bold">Equipamos tu gimnasio de principio a fin</h1>
+        <p class="lead text-white-50">Venta, instalación y mantenimiento profesional de máquinas fitness.</p>
+        <a href="#productos" class="btn btn-accent me-2">Ver catálogo</a>
+        <a href="#contacto" class="btn btn-outline-light">Solicitar cotización</a>
+        <div class="d-flex gap-4 mt-4">
+          <div>
+            <h4 class="mb-0">+120</h4>
+            <small class="text-white-50">Gimnasios equipados</small>
+          </div>
+          <div>
+            <h4 class="mb-0">10</h4>
+            <small class="text-white-50">Años de experiencia</small>
+          </div>
+          <div>
+            <h4 class="mb-0">+1.200</h4>
+            <small class="text-white-50">Máquinas instaladas</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block">
+        <img src="https://fhinstitute.com/wp-content/uploads/2025/02/fitness-park-9.jpeg" class="img-fluid rounded shadow-lg" alt="instalación gimnasio">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Productos destacados -->
+<section id="productos" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-white">Productos destacados</h2>
+    <div class="row g-4">
+
+      <!-- Producto 1 -->
+      <div class="col-md-3">
+        <div class="card card-product h-100 p-3 bg-dark border-light shadow-sm hover-card">
+          <div class="card-img-top rounded overflow-hidden" style="height:180px; background:#111; display:flex; align-items:center; justify-content:center;">
+            <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80" 
+                 alt="Plataforma de fuerza X200" style="width:100%; height:100%; object-fit:cover; transition: transform 0.3s ease;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-white">Plataforma de fuerza X200</h5>
+            <p class="card-text text-white-50 small">Máquina de alto rendimiento para entrenamientos de fuerza con garantía de 3 años.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#contacto" class="btn btn-sm btn-outline-light">Consultar</a>
+              <small class="text-white-50">Desde $2.300</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-md-3">
+        <div class="card card-product h-100 p-3 bg-dark border-light shadow-sm hover-card">
+          <div class="card-img-top rounded overflow-hidden" style="height:180px; background:#111; display:flex; align-items:center; justify-content:center;">
+            <img src="https://cdn.jkexer.com/comm/upimage/p-220425-08227.jpg" 
+                 alt="Cinta Cardio Turbo" style="width:100%; height:100%; object-fit:cover; transition: transform 0.3s ease;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-white">Cinta Cardio Turbo</h5>
+            <p class="card-text text-white-50 small">Cinta con programas personalizados y soporte técnico incluido.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#contacto" class="btn btn-sm btn-outline-light">Consultar</a>
+              <small class="text-white-50">Desde $1.100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-md-3">
+        <div class="card card-product h-100 p-3 bg-dark border-light shadow-sm hover-card">
+          <div class="card-img-top rounded overflow-hidden" style="height:180px; background:#111; display:flex; align-items:center; justify-content:center;">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_698425-MLA84555411952_052025-O.webp" 
+                 alt="Estación Multifunción Pro" style="width:100%; height:100%; object-fit:cover; transition: transform 0.3s ease;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-white">Estación Multifunción Pro</h5>
+            <p class="card-text text-white-50 small">Ideal para espacios donde se busca máxima funcionalidad en una sola estación.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#contacto" class="btn btn-sm btn-outline-light">Consultar</a>
+              <small class="text-white-50">Desde $3.400</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-md-3">
+        <div class="card card-product h-100 p-3 bg-dark border-light shadow-sm hover-card">
+          <div class="card-img-top rounded overflow-hidden" style="height:180px; background:#111; display:flex; align-items:center; justify-content:center;">
+            <img src="https://img2.elyerromenu.com/images/camino-al-olympo/shaker-con-aditamentos/img.webp" 
+                 alt="Accesorios & Shakers" style="width:100%; height:100%; object-fit:cover; transition: transform 0.3s ease;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-white">Accesorios & Shakers</h5>
+            <p class="card-text text-white-50 small">Kits de mancuernas, bandas y accesorios para complementar tu gimnasio.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#contacto" class="btn btn-sm btn-outline-light">Consultar</a>
+              <small class="text-white-50">Desde $50</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Estilos CSS -->
+<style>
+  .hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+  }
+
+  .hover-card img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+
+
+
+<!-- Servicios -->
+<section id="servicios" >
+  <div class="container">
+    <hr>
+    <h2 class="fw-bold mb-5 text-center">Servicios</h2>
+    <div class="row g-4">
+
+      <!-- Servicio 1 -->
+      <div class="col-md-4">
+        <div class="d-flex gap-3 align-items-start">
+          <div class="service-icon text-danger"><i class="fa-solid fa-toolbox"></i></div>
+          <div>
+            <h5>Instalación profesional</h5>
+            <p class="text-white-50 small">Equipo técnico certificado para montaje y puesta a punto de todas las máquinas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Servicio 2 -->
+      <div class="col-md-4">
+        <div class="d-flex gap-3 align-items-start">
+          <div class="service-icon text-danger"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div>
+            <h5>Mantenimiento preventivo</h5>
+            <p class="text-white-50 small">Planes periódicos para garantizar disponibilidad y durabilidad de los equipos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Servicio 3 -->
+      <div class="col-md-4">
+        <div class="d-flex gap-3 align-items-start">
+          <div class="service-icon text-danger"><i class="fa-solid fa-ruler-combined"></i></div>
+          <div>
+            <h5>Diseño de espacios fitness</h5>
+            <p class="text-white-50 small">Planos y renders para aprovechar al máximo cada metro cuadrado de tu gimnasio.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Servicio 4 -->
+      <div class="col-md-4">
+        <div class="d-flex gap-3 align-items-start">
+          <div class="service-icon text-danger"><i class="fa-solid fa-headset"></i></div>
+          <div>
+            <h5>Asesoramiento técnico</h5>
+            <p class="text-white-50 small">Elección de equipos según objetivos y presupuesto, con soporte personalizado.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Servicio 5 -->
+      <div class="col-md-4">
+        <div class="d-flex gap-3 align-items-start">
+          <div class="service-icon text-danger"><i class="fa-solid fa-handshake"></i></div>
+          <div>
+            <h5>Leasing y financiación</h5>
+            <p class="text-white-50 small">Opciones de pago flexibles para proyectos de cualquier tamaño.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Nosotros -->
+<section id="nosotros" >
+  <div class="container">
+    <div class="row align-items-center g-4">
+      
+      <!-- Texto -->
+      <div class="col-lg-6">
+        <hr>
+        <h2 class="fw-bold mb-3">Quiénes somos</h2>
+        <p class="text-white-50">En <strong>Fitness Pro Equipment</strong> nos especializamos en soluciones integrales para gimnasios: desde la venta de equipos de alta gama hasta la instalación, mantenimiento y diseño de espacios. Nuestro compromiso es la calidad, la seguridad y la satisfacción del cliente.</p>
+        <ul class="list-unstyled text-white-50">
+          <li>✅ Equipo técnico certificado</li>
+          <li>✅ Proyectos llave en mano</li>
+          <li>✅ Soporte post-venta y repuestos</li>
+        </ul>
+      </div>
+
+      <!-- Imagen -->
+      <div class="col-lg-6 text-center">
+        <img src="https://i.pinimg.com/736x/cb/aa/be/cbaabe09f25a2ef026b4e86952d6d9f5.jpg" 
+             alt="Equipo instalando gimnasio" class="img-fluid rounded shadow-lg">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr>
+<!-- Testimonios -->
+<section id="testimonios" >
+    <hr>
+  <div class="container">
+    <h2 class="fw-bold mb-5 text-center">Testimonios</h2>
+
+    <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Testimonio 1 -->
+        <div class="carousel-item active">
+          <div class="d-flex flex-column flex-md-row align-items-center gap-3 text-center text-md-start">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" 
+                 class="rounded-circle" width="72" height="72" alt="Cliente">
+            <div>
+              <p class="text-white-50 mb-1">"Excelente trabajo, instalaron todo rápido y con mucho detalle. Nuestro club nunca estuvo mejor equipado."</p>
+              <small class="text-white-50">- Andrés Martínez, Club Athletic</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column flex-md-row align-items-center gap-3 text-center text-md-start">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" 
+                 class="rounded-circle" width="72" height="72" alt="Cliente">
+            <div>
+              <p class="text-white-50 mb-1">"Muy profesionales y atentos. El mantenimiento que contraté extendió la vida útil de nuestras máquinas."</p>
+              <small class="text-white-50">- Lucía Gómez, Gym Center</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column flex-md-row align-items-center gap-3 text-center text-md-start">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" 
+                 class="rounded-circle" width="72" height="72" alt="Cliente">
+            <div>
+              <p class="text-white-50 mb-1">"Asesoramiento excelente y atención rápida. Nuestro gimnasio está ahora equipado de manera óptima."</p>
+              <small class="text-white-50">- Carlos Pérez, FitLife Gym</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<!-- CTA Intermedio -->
+<section class="py-5 text-center">
+  <div class="container">
+    <h3 class="fw-bold mb-3">¿Querés armar tu gimnasio ideal? Te asesoramos sin costo.</h3>
+    <p class="text-white-50 mb-4">Nuestro equipo te acompaña desde el diseño hasta la puesta en marcha de tu gimnasio.</p>
+    <a href="https://wa.me/59812345678?text=Hola%20Fitness%20Pro,%20quiero%20asesoramiento" 
+       class="btn btn-lg btn-danger me-2 mb-2">
+       Hablar por WhatsApp
+    </a>
+    <a href="#contacto" class="btn btn-lg btn-outline-light mb-2">Solicitar asesoramiento</a>
+  </div>
+</section>
+
+<!-- Proveedores & Marcas -->
+<section id="marcas" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4 text-white">Proveedores & Marcas</h2>
+    <p class="text-white-50 mb-5">Trabajamos con las principales marcas de equipos de gimnasio para garantizar calidad y confianza.</p>
+
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <span class="badge bg-secondary fs-6 px-3 py-2">Life Fitness</span>
+      <span class="badge bg-secondary fs-6 px-3 py-2">Technogym</span>
+      <span class="badge bg-secondary fs-6 px-3 py-2">NordicTrack</span>
+      <span class="badge bg-secondary fs-6 px-3 py-2">Hammer Strength</span>
+      <span class="badge bg-secondary fs-6 px-3 py-2">Gorilla Sports</span>
+      <span class="badge bg-secondary fs-6 px-3 py-2">ProForm</span>
+      <span class="badge bg-secondary fs-6 px-3 py-2">Bodytone</span>
+      <span class="badge bg-secondary fs-6 px-3 py-2">BH Fitness</span>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="py-5 mt-5" style="background:#060606;">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Sobre la empresa -->
+      <div class="col-md-4">
+        <h5 class="text-white fw-bold">Fitness Pro Equipment</h5>
+        <p class="text-white-50 small">Equipamos tu pasión por el fitness con equipos de alta calidad y servicio integral.</p>
+        <div class="mt-2">
+          <a href="#" class="text-white-50 me-3"><i class="fa-brands fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-white-50 me-3"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-white-50 me-3"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+          <a href="#" class="text-white-50"><i class="fa-brands fa-twitter fa-lg"></i></a>
+        </div>
+      </div>
+
+      <!-- Enlaces rápidos -->
+      <div class="col-md-4">
+        <h6 class="text-white fw-bold">Enlaces</h6>
+        <ul class="list-unstyled">
+          <li><a href="#productos" class="text-white-50 text-decoration-none">Productos</a></li>
+          <li><a href="#servicios" class="text-white-50 text-decoration-none">Servicios</a></li>
+          <li><a href="#nosotros" class="text-white-50 text-decoration-none">Nosotros</a></li>
+          <li><a href="#contacto" class="text-white-50 text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+
+      <!-- Contacto -->
+      <div class="col-md-4">
+        <h6 class="text-white fw-bold">Contacto</h6>
+        <p class="text-white-50 small mb-1"><i class="fa-solid fa-phone me-2"></i>+598 9 1234 567</p>
+        <p class="text-white-50 small mb-1"><i class="fa-solid fa-envelope me-2"></i>info@fitnessproequipment.com</p>
+        <p class="text-white-50 small mb-1"><i class="fa-solid fa-location-dot me-2"></i>Calle Falsa 123, Montevideo</p>
+        <p class="text-white-50 small"><i class="fa-solid fa-clock me-2"></i>Lun - Vie: 9:00 - 18:00</p>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary my-4">
+
+    <!-- Derechos de autor -->
+    <div class="text-center text-white-50 small">
+      &copy; 2025 Fitness Pro Equipment – Equipamos tu pasión por el fitness.
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
